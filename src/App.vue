@@ -1,18 +1,15 @@
 <template>
   
-  <!-- <LoginComponentVue /> -->
+
   <router-view />
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-// import LoginComponentVue from './components/LoginComponent.vue';
+
 
 export default {
   name: 'App',
-  // components: {
-  //   LoginComponentVue
-  // }
+  
 }
 </script>
 
