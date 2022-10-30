@@ -40,8 +40,8 @@ export default {
   name: "LoginComponent",
   methods: {
     greet: function () {
-        const defaultEmail = "malvo@gmail.com";
-        const defaultPass = 123456
+        const defaultEmail = "malvinopondo@gmail.com";
+        const defaultPass = "Mark254"
       var email = document.getElementById('email').value
       var password = document.getElementById('password').value
 
@@ -50,7 +50,7 @@ export default {
         alert('correct details')
         this.$router.push('/apidata')
       }else{
-        alert("please check your details")
+        alert("wrong details")
       }
       
     
